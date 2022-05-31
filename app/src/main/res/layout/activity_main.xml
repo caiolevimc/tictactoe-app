@@ -10,9 +10,7 @@
         android:id="@+id/idTvHead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:gravity="center"
         android:padding="5dp"
         android:text="Tic Tac Toe"
         android:textAlignment="center"
@@ -23,17 +21,16 @@
         android:id="@+id/idBtnSinglePlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/idTvHead"
-        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
         android:text="Single Player"
         android:textAllCaps="false" />
+
     <Button
         android:id="@+id/idBtnMultiPlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/idBtnSinglePlayer"
+        android:layout_centerInParent="true"
         android:layout_marginTop="40dp"
         android:text="Multi Player"
         android:textAllCaps="false" />
